@@ -17,7 +17,7 @@ class Profile(CRideModel):
 
     picture = models.ImageField(
         'profile picture',
-        upload_to='users/pictures',
+        upload_to='users/pictures/',
         blank=True,
         null=True
     )
