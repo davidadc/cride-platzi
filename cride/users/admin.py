@@ -15,6 +15,7 @@ class CustomUserAdmin(UserAdmin):
     list_filter = ('is_client', 'is_staff', 'created', 'modified')
 
 
+@admin.register(Profile)
 class ProfileAdmin(admin.ModelAdmin):
     """Profile model admin."""
 
