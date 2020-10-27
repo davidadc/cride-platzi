@@ -1,9 +1,9 @@
-"""Circles URLs."""
+"""Users URLs."""
 
 # Django
 from django.urls import path
 
-# View
+# Views
 from cride.users.views import UserLoginAPIView
 
 urlpatterns = [
